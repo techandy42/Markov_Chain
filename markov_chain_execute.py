@@ -3,8 +3,6 @@ import pandas as pd
 # Load the CSV file as a DataFrame
 word_matrix = pd.read_csv('markov_chain.csv', index_col=0)
 
-print(word_matrix)
-
 # Read the first word 
 first_word = input("Enter the first word: ")
 
