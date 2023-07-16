@@ -4,6 +4,7 @@
 
 > Guide
 
+- Make sure numpy and pandas is installed: `pip install numpy pandas`
 - Place training data into the documents.txt file.
 - Run the markov_chain_train.py file to train the model.
 - Run the markov_chain_execute.py file to generate text using the trained model.
